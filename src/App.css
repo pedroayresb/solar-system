@@ -1,7 +1,90 @@
-.App {
+body {
+  background-image: url(./images/background.png);
   text-align: center;
 }
 
-.body {
-  background-image: url('./images/background.png');
+.SolarSystem {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  width: 60%;
+}
+
+.header {
+  color: white;
+  text-align: center;
+}
+
+.Planetas {
+  color: white;
+  text-align: center;
+  border: 1px dotted white;
+}
+
+.planets {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px 40px;
+}
+
+.planet {
+  display: flex;
+  flex-direction: column;
+}
+
+.Mercúrio {
+  width: 58px;
+}
+
+.Vênus {
+  width: 142px;
+}
+
+.Terra {
+  width: 150px;
+}
+
+.Marte {
+  width: 80px;
+}
+
+.Júpiter {
+  width: 300px;
+}
+
+.Saturno {
+  width:450px;
+}
+
+.Urano {
+  width: 230px;
+}
+
+.Netuno {
+  width: 210px;
+}
+
+.missionsContainer {
+  color:  white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  width: 60%;
+}
+
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mission {
+  border: 1px dotted white;
+  width: 200px;
 }
