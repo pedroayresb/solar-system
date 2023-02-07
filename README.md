@@ -1,16 +1,32 @@
-# 🚧 README em construção 🚧
 
-<!-- Olá, Tryber!
+# Projeto: Modelo do Sistema Solar
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+Este projeto tem como objetivo desenvolver uma aplicação interativa que permita ao usuário visualizar e explorar informações sobre os planetas do sistema solar.
 
-É essencial que você preencha esse documento por conta própria, ok?
+## Recursos
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+-   Visualização dos planetas do sistema solar renderizados na tela;
+-   Visualização de cartas com informações sobre missões espaciais;
+-   Imagem de fundo da imagem está disponível na pasta src/images.
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+## Instalação
 
--->
+Para instalar e executar este projeto, siga os seguintes passos:
+
+1.  Clone o repositório para sua máquina local
+
+```bash
+$ git clone https://github.com/seu-usuario/projeto-modelo-sistema-solar.git
+```
+
+2.  Instale as dependências
+
+```bash
+$ npm install
+```
+
+3.  Execute a aplicação
+
+```bash
+$ npm start
+```
