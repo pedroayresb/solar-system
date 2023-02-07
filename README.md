@@ -16,16 +16,22 @@ Para instalar e executar este projeto, siga os seguintes passos:
 1.  Clone o repositório para sua máquina local
 
 ```bash
-$ git clone https://github.com/seu-usuario/projeto-modelo-sistema-solar.git
+$ git clone git@github.com:pedroayresb/solar-system.git
 ```
 
-2.  Instale as dependências
+2. Entre na pasta do projeto
+
+```bash
+$ cd solar-system
+```
+
+3.  Instale as dependências
 
 ```bash
 $ npm install
 ```
 
-3.  Execute a aplicação
+4.  Execute a aplicação
 
 ```bash
 $ npm start
